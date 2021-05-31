@@ -47,7 +47,7 @@ jobs:
     #     python -m pip install --upgrade pip
     #     pip install -r requirements.txt
     - name: Install package and test
-        run: |
+      run: |
           make install test clean
 
     # strategy:
